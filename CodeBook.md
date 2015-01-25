@@ -8,11 +8,13 @@ as "UCI HAR Dataset". The data set can be found
 and described
 [here.](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
+### Description of variables
 The first column is named "subject" and is an integer identifying the subject of the experiment.
 The second column contains a factor describing the activity the subject was undertaking. This can
 take the values "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS" or "WALKING_UPSTAIRS".
 The remaining 79 columns contain summary data of various measurements taken from the UCI HAR Dataset.
 
+### Summary method
 Each of the columns from three to 81 were created by summarising a measure from the UCI HAR Dataset.
 The measure was averaged over every entry relating to the subject and activity. For example, 
 the variable tBodyAcc-mean()-X was averaged across each subject and activity and these averages
