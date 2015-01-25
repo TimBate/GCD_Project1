@@ -10,9 +10,16 @@ and described
 
 ### Description of variables
 The first column is named "subject" and is an integer identifying the subject of the experiment.
+
 The second column contains a factor describing the activity the subject was undertaking. This can
 take the values "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS" or "WALKING_UPSTAIRS".
+
+Both the first and second column are unitless.
+
 The remaining 79 columns contain summary data of various measurements taken from the UCI HAR Dataset.
+The units for each column are derived directly from the UCI HAR Dataset. See the table below to find
+the equivalent variable in the UCI HAR Dataset. The attached appendix describes each of these original
+variables.
 
 ### Summary method
 Each of the columns from three to 81 were created by summarising a measure from the UCI HAR Dataset.
