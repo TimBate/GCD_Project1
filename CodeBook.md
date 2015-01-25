@@ -20,15 +20,15 @@ were stored in the column bodyaccelerationmeanx.
 The following table summarises the relationship between the columns of the tidyData.txt data set and
 the original variables:
 
-| Original variable | Related column |
------------------------------------
-| bodyaccelerationmeanx | tBodyAcc-mean()-X |
-| bodyaccelerationmeany | tBodyAcc-mean()-Y |
-| bodyaccelerationmeanz | tBodyAcc-mean()-Z |
-| bodyaccelerationstandarddeviationx | tBodyAcc-std()-X |
-| bodyaccelerationstandarddeviationy | tBodyAcc-std()-Y |
-| bodyaccelerationstandarddeviationz | tBodyAcc-std()-Z |
-| gravityaccelerationmeanx | tGravityAcc-mean()-X |
+|Original variable|Related column|  
+---------------------------------------------------------------
+| bodyaccelerationmeanx | tBodyAcc-mean()-X |  
+| bodyaccelerationmeany | tBodyAcc-mean()-Y |  
+| bodyaccelerationmeanz | tBodyAcc-mean()-Z |  
+| bodyaccelerationstandarddeviationx | tBodyAcc-std()-X |  
+| bodyaccelerationstandarddeviationy | tBodyAcc-std()-Y |  
+| bodyaccelerationstandarddeviationz | tBodyAcc-std()-Z |  
+| gravityaccelerationmeanx | tGravityAcc-mean()-X |  
 | gravityaccelerationmeany | tGravityAcc-mean()-Y |
 | gravityaccelerationmeanz | tGravityAcc-mean()-Z |
 | gravityaccelerationstandarddeviationx | tGravityAcc-std()-X |
