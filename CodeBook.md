@@ -20,8 +20,8 @@ were stored in the column bodyaccelerationmeanx.
 The following table summarises the relationship between the columns of the tidyData.txt data set and
 the original variables:
 
-|Original variable|Related column|  
----------------------------------------------------------------
+| Original variable | Related column |  
+----------------- | -------------------
 | bodyaccelerationmeanx | tBodyAcc-mean()-X |  
 | bodyaccelerationmeany | tBodyAcc-mean()-Y |  
 | bodyaccelerationmeanz | tBodyAcc-mean()-Z |  
