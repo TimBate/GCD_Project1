@@ -20,84 +20,86 @@ were stored in the column bodyaccelerationmeanx.
 The following table summarises the relationship between the columns of the tidyData.txt data set and
 the original variables:
 
-Original variable | Related column 
+| Original variable | Related column |
 -----------------------------------
-bodyaccelerationmeanx | tBodyAcc-mean()-X                                           
-bodyaccelerationmeany | tBodyAcc-mean()-Y                                           
-bodyaccelerationmeanz | tBodyAcc-mean()-Z                                           
-bodyaccelerationstandarddeviationx | tBodyAcc-std()-X                               
-bodyaccelerationstandarddeviationy | tBodyAcc-std()-Y                               
-bodyaccelerationstandarddeviationz | tBodyAcc-std()-Z                               
-gravityaccelerationmeanx | tGravityAcc-mean()-X                                     
-gravityaccelerationmeany | tGravityAcc-mean()-Y                                     
-gravityaccelerationmeanz | tGravityAcc-mean()-Z                                     
-gravityaccelerationstandarddeviationx | tGravityAcc-std()-X                         
-gravityaccelerationstandarddeviationy | tGravityAcc-std()-Y                         
-gravityaccelerationstandarddeviationz | tGravityAcc-std()-Z                         
-bodyaccelerationjerkmeanx | tBodyAccJerk-mean()-X                                   
-bodyaccelerationjerkmeany | tBodyAccJerk-mean()-Y                                   
-bodyaccelerationjerkmeanz | tBodyAccJerk-mean()-Z                                   
-bodyaccelerationjerkstandarddeviationx | tBodyAccJerk-std()-X                       
-bodyaccelerationjerkstandarddeviationy | tBodyAccJerk-std()-Y                       
-bodyaccelerationjerkstandarddeviationz | tBodyAccJerk-std()-Z                       
-bodygyromeanx | tBodyGyro-mean()-X                                                  
-bodygyromeany | tBodyGyro-mean()-Y                                                  
-bodygyromeanz | tBodyGyro-mean()-Z                                                  
-bodygyrostandarddeviationx | tBodyGyro-std()-X                                      
-bodygyrostandarddeviationy | tBodyGyro-std()-Y                                      
-bodygyrostandarddeviationz | tBodyGyro-std()-Z                                      
-bodygyrojerkmeanx | tBodyGyroJerk-mean()-X                                          
-bodygyrojerkmeany | tBodyGyroJerk-mean()-Y                                          
-bodygyrojerkmeanz | tBodyGyroJerk-mean()-Z                                          
-bodygyrojerkstandarddeviationx | tBodyGyroJerk-std()-X                              
-bodygyrojerkstandarddeviationy | tBodyGyroJerk-std()-Y                              
-bodygyrojerkstandarddeviationz | tBodyGyroJerk-std()-Z                              
-bodyaccelerationmagnitudemean | tBodyAccMag-mean()                                  
-bodyaccelerationmagnitudestandarddeviation | tBodyAccMag-std()                      
-gravityaccelerationmagnitudemean | tGravityAccMag-mean()                            
-gravityaccelerationmagnitudestandarddeviation | tGravityAccMag-std()                
-bodyaccelerationjerkmagnitudemean | tBodyAccJerkMag-mean()                          
-bodyaccelerationjerkmagnitudestandarddeviation | tBodyAccJerkMag-std()              
-bodygyromagnitudemean | tBodyGyroMag-mean()                                         
-bodygyromagnitudestandarddeviation | tBodyGyroMag-std()                             
-bodygyrojerkmagnitudemean | tBodyGyroJerkMag-mean()                                 
-bodygyrojerkmagnitudestandarddeviation | tBodyGyroJerkMag-std()                     
-frequencybodyaccelerationmeanx | fBodyAcc-mean()-X                                  
-frequencybodyaccelerationmeany | fBodyAcc-mean()-Y                                  
-frequencybodyaccelerationmeanz | fBodyAcc-mean()-Z                                  
-frequencybodyaccelerationstandarddeviationx | fBodyAcc-std()-X                      
-frequencybodyaccelerationstandarddeviationy | fBodyAcc-std()-Y                      
-frequencybodyaccelerationstandarddeviationz | fBodyAcc-std()-Z                      
-frequencybodyaccelerationmeanfrequencyx | fBodyAcc-meanFreq()-X                     
-frequencybodyaccelerationmeanfrequencyy | fBodyAcc-meanFreq()-Y                     
-frequencybodyaccelerationmeanfrequencyz | fBodyAcc-meanFreq()-Z                     
-frequencybodyaccelerationjerkmeanx | fBodyAccJerk-mean()-X                          
-frequencybodyaccelerationjerkmeany | fBodyAccJerk-mean()-Y                          
-frequencybodyaccelerationjerkmeanz | fBodyAccJerk-mean()-Z                          
-frequencybodyaccelerationjerkstandarddeviationx | fBodyAccJerk-std()-X              
-frequencybodyaccelerationjerkstandarddeviationy | fBodyAccJerk-std()-Y              
-frequencybodyaccelerationjerkstandarddeviationz | fBodyAccJerk-std()-Z              
-frequencybodyaccelerationjerkmeanfrequencyx | fBodyAccJerk-meanFreq()-X             
-frequencybodyaccelerationjerkmeanfrequencyy | fBodyAccJerk-meanFreq()-Y             
-frequencybodyaccelerationjerkmeanfrequencyz | fBodyAccJerk-meanFreq()-Z             
-frequencybodygyromeanx | fBodyGyro-mean()-X                                         
-frequencybodygyromeany | fBodyGyro-mean()-Y                                         
-frequencybodygyromeanz | fBodyGyro-mean()-Z                                         
-frequencybodygyrostandarddeviationx | fBodyGyro-std()-X                             
-frequencybodygyrostandarddeviationy | fBodyGyro-std()-Y                             
-frequencybodygyrostandarddeviationz | fBodyGyro-std()-Z                             
-frequencybodygyromeanfrequencyx | fBodyGyro-meanFreq()-X                            
-frequencybodygyromeanfrequencyy | fBodyGyro-meanFreq()-Y                            
-frequencybodygyromeanfrequencyz | fBodyGyro-meanFreq()-Z                            
-frequencybodyaccelerationmagnitudemean | fBodyAccMag-mean()                         
-frequencybodyaccelerationmagnitudestandarddeviation | fBodyAccMag-std()             
-frequencybodyaccelerationmagnitudemeanfrequency | fBodyAccMag-meanFreq()            
-frequencybodyaccelerationjerkmagnitudemean | fBodyBodyAccJerkMag-mean()             
-frequencybodyaccelerationjerkmagnitudestandarddeviation | fBodyBodyAccJerkMag-std() 
-frequencybodyaccelerationjerkmagnitudemeanfrequency | fBodyBodyAccJerkMag-meanFreq()
-frequencybodygyromagnitudemean | fBodyBodyGyroMag-mean()                            
-frequencybodygyromagnitudestandarddeviation | fBodyBodyGyroMag-std()                
-frequencybodygyromagnitudemeanfrequency | fBodyBodyGyroMag-meanFreq()               
-frequencybodygyrojerkmagnitudemean | fBodyBodyGyroJerkMag-mean()                    
-frequencybodygyrojerkmagnitudestandarddeviation | fBodyBodyGyroJerkMag-std()        
-frequencybodygyrojerkmagnitudemeanfrequency | fBodyBodyGyroJerkMag-meanFreq() 
+| bodyaccelerationmeanx | tBodyAcc-mean()-X |
+| bodyaccelerationmeany | tBodyAcc-mean()-Y |
+| bodyaccelerationmeanz | tBodyAcc-mean()-Z |
+| bodyaccelerationstandarddeviationx | tBodyAcc-std()-X |
+| bodyaccelerationstandarddeviationy | tBodyAcc-std()-Y |
+| bodyaccelerationstandarddeviationz | tBodyAcc-std()-Z |
+| gravityaccelerationmeanx | tGravityAcc-mean()-X |
+| gravityaccelerationmeany | tGravityAcc-mean()-Y |
+| gravityaccelerationmeanz | tGravityAcc-mean()-Z |
+| gravityaccelerationstandarddeviationx | tGravityAcc-std()-X |
+| gravityaccelerationstandarddeviationy | tGravityAcc-std()-Y |
+| gravityaccelerationstandarddeviationz | tGravityAcc-std()-Z |
+| bodyaccelerationjerkmeanx | tBodyAccJerk-mean()-X |
+| bodyaccelerationjerkmeany | tBodyAccJerk-mean()-Y |
+| bodyaccelerationjerkmeanz | tBodyAccJerk-mean()-Z |
+| bodyaccelerationjerkstandarddeviationx | tBodyAccJerk-std()-X |
+| bodyaccelerationjerkstandarddeviationy | tBodyAccJerk-std()-Y |
+| bodyaccelerationjerkstandarddeviationz | tBodyAccJerk-std()-Z |
+| bodygyromeanx | tBodyGyro-mean()-X |
+| bodygyromeany | tBodyGyro-mean()-Y |
+| bodygyromeanz | tBodyGyro-mean()-Z |
+| bodygyrostandarddeviationx | tBodyGyro-std()-X |
+| bodygyrostandarddeviationy | tBodyGyro-std()-Y |
+| bodygyrostandarddeviationz | tBodyGyro-std()-Z |
+| bodygyrojerkmeanx | tBodyGyroJerk-mean()-X |
+| bodygyrojerkmeany | tBodyGyroJerk-mean()-Y |
+| bodygyrojerkmeanz | tBodyGyroJerk-mean()-Z |
+| bodygyrojerkstandarddeviationx | tBodyGyroJerk-std()-X |
+| bodygyrojerkstandarddeviationy | tBodyGyroJerk-std()-Y |
+| bodygyrojerkstandarddeviationz | tBodyGyroJerk-std()-Z |
+| bodyaccelerationmagnitudemean | tBodyAccMag-mean() |
+| bodyaccelerationmagnitudestandarddeviation | tBodyAccMag-std() |
+| gravityaccelerationmagnitudemean | tGravityAccMag-mean() |
+| gravityaccelerationmagnitudestandarddeviation | tGravityAccMag-std() |
+| bodyaccelerationjerkmagnitudemean | tBodyAccJerkMag-mean() |
+| bodyaccelerationjerkmagnitudestandarddeviation | tBodyAccJerkMag-std() |
+| bodygyromagnitudemean | tBodyGyroMag-mean() |
+| bodygyromagnitudestandarddeviation | tBodyGyroMag-std() |
+| bodygyrojerkmagnitudemean | tBodyGyroJerkMag-mean() |
+| bodygyrojerkmagnitudestandarddeviation | tBodyGyroJerkMag-std() |
+| frequencybodyaccelerationmeanx | fBodyAcc-mean()-X |
+| frequencybodyaccelerationmeany | fBodyAcc-mean()-Y |
+| frequencybodyaccelerationmeanz | fBodyAcc-mean()-Z |
+| frequencybodyaccelerationstandarddeviationx | fBodyAcc-std()-X |
+| frequencybodyaccelerationstandarddeviationy | fBodyAcc-std()-Y |
+| frequencybodyaccelerationstandarddeviationz | fBodyAcc-std()-Z |
+| frequencybodyaccelerationmeanfrequencyx | fBodyAcc-meanFreq()-X |
+| frequencybodyaccelerationmeanfrequencyy | fBodyAcc-meanFreq()-Y |
+| frequencybodyaccelerationmeanfrequencyz | fBodyAcc-meanFreq()-Z |
+| frequencybodyaccelerationjerkmeanx | fBodyAccJerk-mean()-X |
+| frequencybodyaccelerationjerkmeany | fBodyAccJerk-mean()-Y |
+| frequencybodyaccelerationjerkmeanz | fBodyAccJerk-mean()-Z |
+| frequencybodyaccelerationjerkstandarddeviationx | fBodyAccJerk-std()-X |
+| frequencybodyaccelerationjerkstandarddeviationy | fBodyAccJerk-std()-Y |
+| frequencybodyaccelerationjerkstandarddeviationz | fBodyAccJerk-std()-Z |
+| frequencybodyaccelerationjerkmeanfrequencyx | fBodyAccJerk-meanFreq()-X |
+| frequencybodyaccelerationjerkmeanfrequencyy | fBodyAccJerk-meanFreq()-Y |
+| frequencybodyaccelerationjerkmeanfrequencyz | fBodyAccJerk-meanFreq()-Z |
+| frequencybodygyromeanx | fBodyGyro-mean()-X |
+| frequencybodygyromeany | fBodyGyro-mean()-Y |
+| frequencybodygyromeanz | fBodyGyro-mean()-Z |
+| frequencybodygyrostandarddeviationx | fBodyGyro-std()-X |
+| frequencybodygyrostandarddeviationy | fBodyGyro-std()-Y |
+| frequencybodygyrostandarddeviationz | fBodyGyro-std()-Z |
+| frequencybodygyromeanfrequencyx | fBodyGyro-meanFreq()-X |
+| frequencybodygyromeanfrequencyy | fBodyGyro-meanFreq()-Y |
+| frequencybodygyromeanfrequencyz | fBodyGyro-meanFreq()-Z |
+| frequencybodyaccelerationmagnitudemean | fBodyAccMag-mean() |
+| frequencybodyaccelerationmagnitudestandarddeviation | fBodyAccMag-std() |
+| frequencybodyaccelerationmagnitudemeanfrequency | fBodyAccMag-meanFreq() |
+| frequencybodyaccelerationjerkmagnitudemean | fBodyBodyAccJerkMag-mean() |
+| frequencybodyaccelerationjerkmagnitudestandarddeviation | fBodyBodyAccJerkMag-std() |
+| frequencybodyaccelerationjerkmagnitudemeanfrequency | fBodyBodyAccJerkMag-meanFreq() |
+| frequencybodygyromagnitudemean | fBodyBodyGyroMag-mean() |
+| frequencybodygyromagnitudestandarddeviation | fBodyBodyGyroMag-std() |
+| frequencybodygyromagnitudemeanfrequency | fBodyBodyGyroMag-meanFreq() |
+| frequencybodygyrojerkmagnitudemean | fBodyBodyGyroJerkMag-mean() |
+| frequencybodygyrojerkmagnitudestandarddeviation | fBodyBodyGyroJerkMag-std() |
+| frequencybodygyrojerkmagnitudemeanfrequency | fBodyBodyGyroJerkMag-meanFreq() |
+
+
