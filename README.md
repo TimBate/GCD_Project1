@@ -1,4 +1,4 @@
-# GCD_Project1
+# Getting and Cleaning Data project 1
 This is Project 1 for the course Getting and Cleaning Data.
 
 In this repository you will find:
