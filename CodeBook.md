@@ -21,6 +21,9 @@ The units for each column are derived directly from the UCI HAR Dataset. See the
 the equivalent variable in the UCI HAR Dataset. The attached appendix describes each of these original
 variables.
 
+Each row relates to a specific combination of subject and activity. With 30 subjects and six activities, this
+gives 180 rows.
+
 ### Summary method
 Each of the columns from three to 81 were created by summarising a measure from the UCI HAR Dataset.
 The measure was averaged over every entry relating to the subject and activity. For example, 
